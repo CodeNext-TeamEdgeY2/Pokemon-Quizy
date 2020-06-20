@@ -73,11 +73,13 @@
         android:text="Gamemode"
         app:layout_constraintBottom_toTopOf="@+id/Ezy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
 
     <Button
         android:id="@+id/Ezy"
-        android:onClick="openMainActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="168dp"
@@ -85,24 +87,30 @@
         android:layout_marginEnd="155dp"
         android:layout_marginRight="155dp"
         android:layout_marginBottom="50dp"
+        android:onClick="openMainActivity"
         android:text="Guess the Name"
         app:layout_constraintBottom_toTopOf="@+id/Med"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/Med"
-        android:onClick="openMainActivity2"
         android:layout_width="165dp"
         android:layout_height="56dp"
         android:layout_marginStart="163dp"
         android:layout_marginLeft="163dp"
         android:layout_marginEnd="160dp"
         android:layout_marginRight="160dp"
+        android:onClick="openMainActivity2"
         android:text="Guess the Picture"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.376"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="463dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
