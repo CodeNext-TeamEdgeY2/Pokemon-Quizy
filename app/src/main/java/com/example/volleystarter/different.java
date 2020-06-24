@@ -23,12 +23,8 @@ public class different extends AppCompatActivity {
     }
 
     public void back(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, splashActivity.class);
         startActivity(intent);
     }
 
-    public void back2(View view) {
-        Intent intent = new Intent(this, MainActivity2.class);
-        startActivity(intent);
-    }
 }
